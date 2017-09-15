@@ -1,0 +1,143 @@
+body{
+    font-family: sans-serif, arial, tahoma;
+    box-sizing:border-box;
+}
+.Container {width:1170px;margin:auto;}
+/*start Header*/
+header section.user img{
+    float:left;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+header section.user h1{margin:5px 0 5px 115px;}
+header section.user p{
+    color:#f76040;
+    margin:20px 0 5px 115px;
+}
+header section.social-media ul{list-style:none;float:right;margin:-20px 50px 0 0;}
+header section.social-media ul li{display:inline-block;}
+header section.social-media ul li i {color:#999;}
+header section.social-media ul li i:hover {color:#fcad84;}
+header section.info-bar{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    margin-top:5%;
+    text-align:center;
+}
+header section.info-bar ul li{list-style:none;display:inline-block;margin-right:8%}
+header section.info-bar span,i{color:#999}
+header section.info p{
+    font-size:30px;
+    line-height:2;
+    letter-spacing:2px;
+    color:#999999;
+    margin:2%
+}
+header section.info p span{color:#44b76f}
+/* End Header */
+/*start skills&Award*/
+.skills{
+    background-color:#000;
+    overflow:hidden;
+    padding:4%
+}
+.skills h3{color:#fff}
+.skills .ss{width:50%;float:left}
+.skills .ss span{color:#CCC;line-height:3}
+.skills .ss div{background-color:#3b3b3b;height:3px;width:50%}
+.skills .ss div span{
+    display:block;
+    height:3px;
+}
+.skills .ss div.w span{background-color:#34a09f}
+.skills .ss div.u span{background-color:#b74488}
+.skills .ss div.h span{background-color:#d58855}
+.skills .ss div.p span{background-color:#8fa065}
+.skills .ss div.s span{background-color:#7848c0}
+
+.skills .dt{width:50%;float:left}
+.skills .dt span{color:#CCC;line-height:3}
+.skills .dt div{background-color:#3b3b3b;height:3px;width:50%;}
+.skills .dt div span{
+    display:block;
+    text-align:right;
+    height:3px;
+}
+.skills .dt div.p span{background-color:#6083f0}
+.skills .dt div.i span{background-color:#b79c20}
+.skills .dt div.d span{background-color:#44b76f}
+.skills .dt div.b span{background-color:#f76040}
+.skills .dt div.n span{background-color:#d8d8d8}
+/*End skills&Award*/
+/* Start Personal Ecperience*/
+.PE{background-color:#44b76f;overflow:hidden;padding:3%}
+.PE h3{color:#fff;margin-left:1%}
+.PE .experience {float:left;width:10%;overflow:hidden}
+.PE .experience .years{
+    width:100px;
+    height:100px;
+    background-color:#fff;
+    color:#44b76f;
+    border-radius:5%;
+    text-align:center;
+    line-height:1.6;
+    font-weight:bold;
+    font-size:13px;
+    margin:0 0 42% 0;
+    position:relative;
+}
+.PE .experience .years span{font-weight:normal}
+.PE .experience .years:not(:last-child):after{
+    content:'';
+    position:absolute;
+    top:100%;
+    left:50%;
+    background-color:#fff;
+    width:3px;
+    height:50%;
+    margin-left:-1.5px
+}
+.PE .jobs{margin:0 0 0 15%;padding-bottom:3%}
+.PE .jobs .info:after{content:'';background-color:#eef7f1;width:100%;height:3%;position:absolute;margin-top:5%}
+.PE .jobs .info{margin:0 0 85px 0;position:relative}
+.PE .jobs .info h3{margin-top:0}
+.PE .jobs .info span{font-weight:normal;font-size:15px}
+.PE .jobs .info p{color:#eef7f1;margin:0 0 0 1%;}
+/* End Personal Experience*/
+/* Start Education & Awards */
+/* Star Education */
+.EA .edu{width:50%;float:left}
+.EA .edu2{margin-bottom:10%}
+.EA .edu2 .year{
+    background-color:#ef5651;
+    width:50px;
+    height:50px;
+    border-radius:7%;
+    color:#fff;
+    text-align:center;
+    float:left;
+}
+.EA .edu2 .details{margin-left:15%;}
+.EA .edu2 .details p{color:#a3a3a3;}
+.EA .edu2 .details span{color:#c9c9c9;}
+/* End Education */
+/* Start Awards */
+.EA .awr {width:50%;float:left}
+.EA .awr .awr2 .ayear{
+    background-color:#efb251;
+    float:left;
+    width:50px;
+    height:50px;
+    color:#fff;
+    text-align:center
+}
+.EA .awr .awr2 .a-details{margin-left:15%}
+.EA .awr .awr2 {margin-bottom:10%}
+.EA .awr2 .a-details p{color:#a3a3a3;}
+.EA .awr2 .a-details span{color:#c9c9c9;}
+/* End Awards*/
+/* End Education & Awards */
+/*Line*/
+.bl .Line{background-color:#000;width:100%;height:5px;margin-top:50%}
+footer{padding:5%;text-align:center}
